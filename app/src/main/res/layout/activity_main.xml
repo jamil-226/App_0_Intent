@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#006699"
+    tools:context="com.example.jameel.app_0_assignmentintent.MainActivity">
+
+
+    <Button
+        android:text="Other Activity"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="#ff1020"
+        android:textColor="#ffffff"
+        android:layout_marginTop="96dp"
+        android:id="@+id/btnAnother"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/btnForThirdAct"
+        android:layout_alignStart="@+id/btnForThirdAct" />
+
+    <Button
+        android:text="Second Activity"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="51dp"
+        android:background="#ff1020"
+        android:textColor="#ffffff"
+        android:id="@+id/btnForThirdAct"
+        tools:ignore="HardcodedText"
+        android:layout_below="@+id/btnAnother"
+        android:layout_alignLeft="@+id/BtnList"
+        android:layout_alignStart="@+id/BtnList" />
+
+    <Button
+        android:text="List"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:background="#ff1020"
+        android:textSize="18dp"
+        android:id="@+id/BtnList"
+        android:layout_marginTop="85dp"
+        android:layout_below="@+id/btnForThirdAct"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
